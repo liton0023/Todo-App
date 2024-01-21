@@ -134,3 +134,44 @@ body {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px 5px #00000040;
 }
+
+.category .left {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.category .left img {
+  width: 3rem;
+}
+
+.category .content h1 {
+  font-size: 1.5rem;
+}
+
+.category .content p {
+  color: #2e2e2e;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+.category .options {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+
+.category:hover .options {
+  opacity: 1;
+  visibility: visible;
+}
+
+.category .toggle-btn {
+  width: 2rem;
+  cursor: pointer;
+  opacity: 0.6;
+}
+.category .toggle-btn:hover {
+  opacity: 1;
+}
+
+/* category srceen */
